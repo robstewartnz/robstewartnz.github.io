@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
 <style type="text/css">
       .dynamic-template h2 {
         font-size: 24px;
@@ -31,11 +28,9 @@
           font-size: 12px;
       }
   </style>
-</head>
-<body>
+
   <div class="dynamic-template">
-      <h2>Dynamically generated template</h2>
-      <div class="dynamic-items">
+       <div class="dynamic-items">
           {{#each items}}
               <div class="dynamic-item">
                   <h3>Result #{{@index}}</h3>
@@ -47,8 +42,3 @@
           {{/each}}
       </div>
   </div>
-</body>
-</html>
-
-
-
